@@ -33,5 +33,3 @@ This project walks through the process of generating an ECC key using a YubiHSM2
 6. Sign and verify a message using KMS
 
 ---
-
-This guide is based on successful testing with Vault + YubiHSM and is intended as a standalone integration reference.
