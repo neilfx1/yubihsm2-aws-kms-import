@@ -21,7 +21,7 @@ This project walks through the process of generating an ECC key using a YubiHSM2
 - AWS KMS permissions for external key import
 - OpenSSL
 - AWS CLI
-- jq (optional, for parsing CLI JSON)
+- jq
 
 ## ✅ What You'll Do
 
