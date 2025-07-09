@@ -36,14 +36,14 @@ Select the Wrapping Key Options:
 - **Wrapping Key Spec**: RSA_4096  
 - **Wrapping Algorithm**: RSA_AES_KEY_WRAP_SHA256
 
-Download the Wrapping Public Key and Import Token. 
+Download the Wrapping Public Key and Import Token, save it as Import_Parameters.zip in a suitable location.
 
 ---
 
 ## 🔁 Step 3: Prepare the Wrapping Key for YubiHSM2
 
 ```bash
-unzip ~/Downloads/Import_Parameters_*.zip
+unzip Import_Parameters.zip
 openssl rsa -pubin -inform DER -in WrappingPublicKey.bin -out wrappingkey-aws.pem
 ```
 
